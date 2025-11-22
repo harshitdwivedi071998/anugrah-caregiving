@@ -34,17 +34,17 @@ export default function Home() {
             className="text-gray-700 max-w-2xl mx-auto mb-8 leading-relaxed"
           >
 
-            Anugrah Care Giving Society, based in Jodhpur, Rajasthan, is a registered society devoted to providing free, compassionate, and dignified palliative / general nursing and medical care to individuals and families facing chronic or life-limiting illnesses.<br/>
+            Anugrah Care Giving Society, based in Jodhpur, Rajasthan, is a registered society devoted to providing free, compassionate, and dignified palliative / general nursing and medical care to individuals and families facing chronic or life-limiting illnesses.<br />
 
-            Our vision is to ensure that no one suffers alone — that every patient receives comfort, care, and respect, regardless of age, gender,creed, or sexual orientation.<br/>
+            Our vision is to ensure that no one suffers alone — that every patient receives comfort, care, and respect, regardless of age, gender,creed, or sexual orientation.<br />
 
             Through our initiative <b>Grace Home</b>, we provide 24-hour nursing care, nutritious meals, free transportation, and a peaceful, homelike environment for patients in need of respite, transitional, or end-of-life care.
 
             Anugrah also works closely with the Rajasthan State Government to train CHOs, ANMs, ASHAs and nursing professionals in palliative and home-based care across Jodhpur, Barmer, Ajmer, and other regions of Rajasthan.
 
-            Supported by a dedicated team of healthcare professionals and volunteers, <br/>
+            Supported by a dedicated team of healthcare professionals and volunteers, <br />
             Anugrah Care Giving Society works in collaboration with <b>HPNA (Hospice and Palliative Nurses Association India).</b>
-            
+
           </motion.p>
 
           {/* Mini QR Section */}
@@ -233,6 +233,52 @@ export default function Home() {
             “Until the very last breath—let there be dignity, let there be care, let there be love.”
           </blockquote> */}
         </div>
+      </section>
+      {/* ==== Other Websites Section ==== */}
+      <section className="py-16 bg-white">
+        <motion.div
+          initial={{ opacity: 0, y: 30 }}
+          whileInView={{ opacity: 1, y: 0 }}
+          viewport={{ once: true }}
+          transition={{ duration: 1.2 }}
+          className="max-w-5xl mx-auto text-center px-6"
+        >
+          <h2 className="text-3xl font-bold text-amber-700 mb-4">
+            🌐 Our Sister Websites
+          </h2>
+
+          <p className="text-gray-700 max-w-2xl mx-auto mb-10 leading-relaxed">
+            We are proud to be part of a larger mission focused on care, education,
+            and community service. Explore our other platforms working towards
+            similar goals with compassion and dedication.
+          </p>
+
+          <div className="grid md:grid-cols-2 gap-6">
+            {/* Replace links below with real URLs */}
+            <Link
+              to="/under-construction"
+              className="block bg-amber-50 shadow-lg rounded-xl py-6 px-6 hover:bg-amber-100 transition-all"
+            >
+              <h3 className="text-xl font-semibold text-amber-700 mb-2">🔗 elneckindia</h3>
+              <p className="text-gray-600 text-sm">
+                A supportive initiative — coming soon.
+              </p>
+            </Link>
+
+            {/* <a
+              href="https://example-two.com"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="block bg-amber-50 shadow-lg rounded-xl py-6 px-6 hover:bg-amber-100 transition-all"
+            >
+              <h3 className="text-xl font-semibold text-amber-700 mb-2">🔗 Website Two</h3>
+              <p className="text-gray-600 text-sm">
+                Another dedicated platform aligned with our mission of compassion and
+                service for those in need.
+              </p>
+            </a> */}
+          </div>
+        </motion.div>
       </section>
     </div>
   );

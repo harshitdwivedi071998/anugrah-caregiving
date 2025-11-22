@@ -13,12 +13,15 @@ import News from './pages/News'
 import Information from './pages/Information'
 import Gallery from './pages/Gallary'
 import Resources from './pages/Resources'
+import UnderConstruction from './pages/UnderConstruction'
+import ScrollToTop from './pages/ScrollToTop'
 
 export default function App(){
   return (
     <div className="flex flex-col min-h-screen font-sans bg-white text-gray-800">
       <Header />
       <main className="flex-grow">
+        <ScrollToTop />
         <Routes>
           <Route path="/" element={<Home/>} />
           <Route path="/about" element={<About/>} />
@@ -31,6 +34,7 @@ export default function App(){
           <Route path="/infromation" element={<Information/>} />
           <Route path="/gallary" element={<Gallery/>} />
           <Route path="/resources" element={<Resources/>} />
+          <Route path="/under-construction" element={<UnderConstruction />} />
         </Routes>
       </main>
       <Footer />
