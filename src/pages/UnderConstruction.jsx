@@ -11,7 +11,7 @@ export default function UnderConstruction() {
         transition={{ duration: 1 }}
         className="text-center bg-white shadow-xl rounded-2xl p-10 max-w-lg"
       >
-        <h1 className="text-4xl font-bold text-amber-700 mb-4"> Coming Soon</h1>
+        <h1 className="text-4xl font-bold text-amber-700 mb-4"> Under Construction</h1>
         <p className="text-gray-700 leading-relaxed mb-6">
           This section of our website is currently under development.
           We are working to bring something meaningful and helpful for you.
