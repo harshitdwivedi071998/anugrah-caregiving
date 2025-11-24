@@ -259,7 +259,7 @@ export default function Home() {
               to="/under-construction"
               className="block bg-amber-50 shadow-lg rounded-xl py-6 px-6 hover:bg-amber-100 transition-all"
             >
-              <h3 className="text-xl font-semibold text-amber-700 mb-2">🔗 elneckindia</h3>
+              <h3 className="text-xl font-semibold text-amber-700 mb-2">🔗 elnecindia</h3>
               <p className="text-gray-600 text-sm">
                 A supportive initiative — coming soon.
               </p>
