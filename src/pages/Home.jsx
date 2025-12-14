@@ -40,7 +40,7 @@ export default function Home() {
 
             Through our initiative <b>Grace Home</b>, we provide 24-hour nursing care, nutritious meals, free transportation, and a peaceful, homelike environment for patients in need of respite, transitional, or end-of-life care.
 
-            Anugrah also works closely with the Rajasthan State Government to train CHOs, ANMs, ASHAs and nursing professionals in palliative and home-based care across Jodhpur, Barmer, Ajmer, and other regions of Rajasthan.
+            {/* Anugrah also train CHOs, ANMs, ASHAs and nursing professionals in palliative and home-based care across Jodhpur, Barmer, Ajmer, and other regions of Rajasthan. */}
 
             Supported by a dedicated team of healthcare professionals and volunteers, <br />
             Anugrah Care Giving Society works in collaboration with <b>HPNA (Hospice and Palliative Nurses Association India).</b>
