@@ -14,7 +14,7 @@ export default function About() {
             className="text-4xl font-extrabold text-amber-700 mb-4"
           >
             {/* 💖 About Us */}
-            About Us
+            About-Us
           </motion.h1>
           <motion.h2
             initial={{ opacity: 0, y: -10 }}
