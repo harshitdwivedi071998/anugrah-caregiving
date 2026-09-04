@@ -255,7 +255,7 @@ export default function Home() {
 
           <div className="grid md:grid-cols-2 gap-6">
             {/* Replace links below with real URLs */}
-            <Link
+            {/* <Link
               to="/under-construction"
               className="block bg-amber-50 shadow-lg rounded-xl py-6 px-6 hover:bg-amber-100 transition-all"
             >
@@ -263,20 +263,19 @@ export default function Home() {
               <p className="text-gray-600 text-sm">
                 A supportive initiative — coming soon.
               </p>
-            </Link>
+            </Link> */}
 
-            {/* <a
-              href="https://example-two.com"
+            <a
+              href="https://www.elnecindia.com/"
               target="_blank"
               rel="noopener noreferrer"
               className="block bg-amber-50 shadow-lg rounded-xl py-6 px-6 hover:bg-amber-100 transition-all"
             >
-              <h3 className="text-xl font-semibold text-amber-700 mb-2">🔗 Website Two</h3>
+              <h3 className="text-xl font-semibold text-amber-700 mb-2">🔗 elnecindia</h3>
               <p className="text-gray-600 text-sm">
-                Another dedicated platform aligned with our mission of compassion and
-                service for those in need.
+                A supportive initiative
               </p>
-            </a> */}
+            </a>
           </div>
         </motion.div>
       </section>
